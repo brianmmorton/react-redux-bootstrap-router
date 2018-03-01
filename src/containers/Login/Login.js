@@ -10,7 +10,7 @@ export default class Login extends Component {
     e.preventDefault();
 
     try {
-      const res = await this.props.login(this.state.email, this.state.password);
+      await this.props.login(this.state.email, this.state.password);
     }
     catch (err) {
       console.log(err);

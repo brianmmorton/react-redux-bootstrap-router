@@ -2,7 +2,7 @@
 
 import { compose } from 'recompose'
 import { connect } from 'react-redux'
-import { fetch as fetchUser, logout } from 'store/user'
+import { fetch as fetchUser } from 'store/user'
 
 import App from './App';
 
