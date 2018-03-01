@@ -1,0 +1,22 @@
+.btn {
+  border-radius: 999px;
+}
+
+.btn-primary {
+
+}
+
+.btn-sm {
+  padding: 2px 10px;
+  font-size: 12px;
+}
+
+.btn-default {
+  padding: 4px 16px;
+  font-size: 14px;
+}
+
+.btn-lg {
+  padding: 8px 24px;
+  font-size: 18px;
+}

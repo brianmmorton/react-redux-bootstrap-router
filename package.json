@@ -1,0 +1,28 @@
+{
+  "name": "starter",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3030",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "flow-bin": "^0.66.0",
+    "react": "^16.2.0",
+    "react-cookie": "^2.1.4",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "reactstrap": "^5.0.0-beta.2",
+    "recompose": "^0.26.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "superagent": "^3.8.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow"
+  }
+}
