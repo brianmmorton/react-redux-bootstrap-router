@@ -5,6 +5,7 @@
   "proxy": "http://localhost:3030",
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "enzyme": "^3.3.0",
     "flow-bin": "^0.66.0",
     "react": "^16.2.0",
     "react-cookie": "^2.1.4",
@@ -21,8 +22,14 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "flow": "flow"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-15": "^1.0.5",
+    "enzyme-adapter-react-16": "^1.1.1"
   }
 }
