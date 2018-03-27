@@ -1,16 +1,16 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';
+import logo from 'logo.svg';
 import App from './App';
 
-describe('(Component) App', () => {
+describe('App', () => {
   const wrapper = shallow(<App />);
   it('renders...', () => {
     expect(wrapper).to.have.length(1);
   });
-});
 
-// it('renders without crashing', () => {
-//   const app = shallow(<App />);
-//   expect(app.contains(`<img src={logo} className="App-logo" alt="logo" />`)).to.equal(true);
-// });
+  it('has the logo...', () => {
+    expect(wrapper.contains(<img src={require(logo)} className="App-logo" alt="logo" />)).to.equal(true);
+  });
+});
